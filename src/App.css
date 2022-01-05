@@ -1,38 +1,74 @@
+:root{
+  border: 10px solid red;
+}
+
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 0, 153);
+  background-color: rgb(255, 183, 0);
+  padding: 0 20px;
+
+}
+.Options{
+  display: flex;
+  gap: 30px;
+
+}
+a:hover{
+  color: blue;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.Books{
+  background: rgb(255, 183, 0);
+  color: rgb(255, 0, 153);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 40%;
+  margin: auto;
+  margin-top: 30px; 
+  padding: 30px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  gap: 30px;
+  border: 5px solid red;
+
+}
+.InfoSection{
+  display: flex;
+  gap: 60px;
+
+}
+.InfoSection > img {
+    max-width: 100px;
+    max-height: 200px;
+    padding: 30px;
+
+}
+.Description {
+  text-align: left;
+  padding: 3%;
+  padding-top: 0%;
+
+}
+.InfoSection h1 {
+  padding-top: 0%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Footer{
+  height: 80px;
+  margin-top: 65px;
+  background-color: rgb(255, 183, 0);
+
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
